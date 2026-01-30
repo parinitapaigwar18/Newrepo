@@ -1,0 +1,59 @@
+.page{
+    position: absolute;
+    background: linear-gradient(to bottom right,
+     lightblue,rgb(93, 93, 211));
+}
+.add{
+    position: fixed;
+    border: 5px solid lightblue;
+    box-shadow: 2px 5px 5px lightblue;
+    background: rgba(255, 255, 255, 0.15);
+backdrop-filter: blur(10px);
+    width: 300px;
+    margin:250px;
+    height: 350px;
+}
+.add form{
+    margin-left: 35px;   
+}
+.add input{
+    border-radius: 5px;
+    margin: 10px;
+    height: 25px;
+    width: 200px;
+}
+.add button{
+    background-color: white;
+    font-weight: bolder;
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 60px;
+    color: #4f46e5;
+    cursor: pointer;
+}
+#img1{
+    position:absolute;
+    top: 50px;
+    height: 100px;
+    width: 100px;
+}
+#img2{
+    position:absolute;
+    bottom: 50px;
+    height: 100px;
+    width: 100px;
+}
+#img3{
+    position:absolute;
+    right: 300px;
+    height: 100px;
+    width: 100px;
+}
+#img4{
+    position:absolute;
+    left: 300px;
+    height: 100px;
+    width: 100px;
+}
