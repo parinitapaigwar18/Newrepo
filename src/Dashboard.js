@@ -25,7 +25,7 @@
 
 //     // Fetch user details
 //     axios
-//       .get(`http://localhost:3000/dashboard/${userId}`)
+//       .get(`https://backend-pi-topaz-40.vercel.app/dashboard/${userId}`)
 //       .then((res) => {
 //         setUser(res.data.user);
 //       })
@@ -35,7 +35,7 @@
 
 //     // Fetch products
 //     axios
-//       .get("http://localhost:3000/products")
+//       .get("https://backend-pi-topaz-40.vercel.app/products")
 //       .then((res) => {
 //         setProducts(res.data.products);
 //       })
@@ -138,7 +138,7 @@ function Dashboard() {
 
     // ✅ FETCH PRODUCTS WITH TOKEN
     axios
-      .get("http://localhost:3000/products", {
+      .get("https://backend-pi-topaz-40.vercel.app/products", {
         headers: {
           Authorization: `Bearer ${token}`,
         },

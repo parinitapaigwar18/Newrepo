@@ -14,7 +14,7 @@ const handleSubmit = async(e)=>{
   const formData = {name, email, password};
 
   try{
-    const res = await axios.post("http://localhost:3000/register", formData);
+    const res = await axios.post("https://backend-pi-topaz-40.vercel.app/register", formData);
     alert(res.data.message);
    navigate("/");
     

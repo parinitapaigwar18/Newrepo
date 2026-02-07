@@ -15,7 +15,7 @@
         
 
 //         try{
-//           const res = await axios.post("http://localhost:3000/addproduct", formData);
+//           const res = await axios.post("https://backend-pi-topaz-40.vercel.app/addproduct", formData);
 //           alert(res.data.message);
 //          navigate("/");
 //      }catch(error){
@@ -90,7 +90,7 @@ const Addpro = () => {
       const token = localStorage.getItem("token");
 
       const res = await axios.post(
-        "http://localhost:3000/addproduct",
+        "https://backend-pi-topaz-40.vercel.app/addproduct",
         formData,
         {
           headers: {
